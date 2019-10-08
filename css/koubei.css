@@ -1,0 +1,273 @@
+@font-face {
+    font-family: 'iconfont';
+    src: url('./font/iconfont.eot');
+    src: url('./font/iconfont.eot?#iefix') format('embedded-opentype'), url('./font/iconfont.woff2') format('woff2'), url('./font/iconfont.woff') format('woff'), url('./font/iconfont.ttf') format('truetype'), url('./font/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    font-size: 100px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-size: 0.16rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 1.0rem;
+    background: #1b82d2;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.3rem;
+    box-sizing: border-box;
+    line-height: 1rem
+}
+
+.header-top-left {
+    display: flex;
+}
+
+.header-top-left>span {
+    font-size: 0.32rem;
+    color: #ffffff;
+    padding-right: 0.3rem;
+}
+
+.header-top-left>form {
+    margin-top: 0.2rem;
+    width: 4rem;
+    height: 0.6rem;
+    background: #ffffff;
+    line-height: 0.4rem;
+    padding: 0.1rem 0.2rem;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.header-top-left>form input {
+    width: 2.8rem;
+    border: 0;
+    outline: 0;
+}
+
+.header-top-left>form>strong {
+    color: #777777;
+}
+
+.header-top-right>a {
+    padding-left: 0.2rem;
+}
+
+.header-top-right>a>i {
+    font-style: normal;
+    color: white;
+    font-size: 0.4rem;
+    vertical-align: middle;
+}
+
+
+/*主体*/
+
+.main {
+    height: 100%;
+    overflow: auto;
+    display: flex;
+    padding: 0 0.2rem;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.main-nav01>ul {
+    display: flex;
+    width: 100%;
+    flex-flow: wrap;
+    background-color: white;
+}
+
+.main-nav01>ul>li {
+    width: 20%;
+    display: flex;
+    box-sizing: border-box;
+    border-top: 0;
+    border-left: 0;
+}
+
+.main-nav01>ul>li a {
+    display: flex;
+    width: 100%;
+    height: 1.3rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.1rem;
+}
+
+.main-nav01>ul>li a>i {
+    font-size: 0.6rem;
+    color: #2eb3e8;
+}
+
+.main-nav01>ul>li a>span {
+    font-size: 0.24rem;
+    color: #777777;
+}
+
+.main-nav01 img {
+    width: 100%;
+    height: 1.7rem;
+    margin: 0.3rem 0;
+}
+
+.main-content01 {
+    width: 100%;
+    height: 1.7rem;
+    padding: 0.2rem;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.main-content01>.content-show {
+    padding: 0.1rem;
+    height: 1.4rem;
+    width: 2.20rem;
+    border-radius: 0.08rem;
+    background: #ffffff;
+    margin: 0.05rem
+}
+
+.main-content01>.content-show>h3 {
+    font-size: 0.32rem;
+    font-weight: 550;
+    text-align: center;
+}
+
+.main-content01>.content-show>div {
+    margin: 0.3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-content01>.content-show>div>span {
+    font-size: 0.16rem;
+    color: #777777;
+}
+
+.main-content01>.content-show img {
+    width: 0.65rem;
+    height: 0.65rem;
+}
+
+.img-show img {
+    width: 100%;
+    height: 100%;
+    margin-top: 0.3rem;
+    margin-bottom: 0.2rem;
+}
+
+.list-commodity {
+    height: 3.5rem;
+    width: 6.9rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0.2rem;
+    margin-top: 0.3rem;
+}
+
+.list-commodity h1 {
+    margin: 0.2rem;
+    font-size: 0.32rem
+}
+
+.commodity-content {
+    display: flex;
+}
+
+.commodity-content>div {
+    margin-right: 0.2rem;
+}
+
+.commodity-content-img img {
+    width: 2.05rem;
+    height: 2.35rem;
+}
+
+.commodity-show img {
+    width: 2rem;
+    height: 1.5rem;
+}
+
+.commodity-show span {
+    color: red;
+}
+
+
+/*页脚*/
+
+.footer {
+    height: 1.2rem;
+}
+
+.footer ul {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.footer ul li {
+    display: flex;
+    width: 20%;
+    height: 100%;
+}
+
+.footer ul li a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer ul li a i {
+    font-size: 0.5rem;
+    color: #777777;
+}
+
+.footer ul li a span {
+    font-size: 0.2rem;
+}
+
+.active {
+    color: #2eb3e8 !important;
+}

@@ -1,0 +1,260 @@
+@font-face {
+    font-family: 'iconfont';
+    src: url('./font/iconfont.eot');
+    src: url('./font/iconfont.eot?#iefix') format('embedded-opentype'), url('./font/iconfont.woff2') format('woff2'), url('./font/iconfont.woff') format('woff'), url('./font/iconfont.ttf') format('truetype'), url('./font/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    font-size: 100px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-size: 0.16rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 2.5rem;
+    background: #1b82d2;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.2rem 0.3rem;
+    box-sizing: border-box;
+}
+
+.header-top-left>a {
+    font-size: 0.3rem;
+    color: #fff;
+    vertical-align: middle;
+    padding-left: 0.05rem;
+}
+
+.header-top-right>a {
+    font-style: normal;
+    color: white;
+    font-size: 0.3rem;
+    vertical-align: middle;
+}
+
+.header-bot {
+    display: flex;
+    color: #fff;
+    padding-left: 0.3rem;
+    justify-content: space-between;
+}
+
+.header-bot div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-bot div:nth-child(1) p:nth-child(1) {
+    font-size: 0.24rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 0.1rem;
+}
+
+.header-bot div:nth-child(1) p:nth-child(2) {
+    font-size: 0.32rem;
+    color: #ffffff;
+}
+
+.header-bot div:nth-child(2) {
+    position: relative;
+    right: 0.3rem;
+}
+
+.header-bot div:nth-child(2) p:nth-child(1) {
+    font-size: 0.24rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 0.1rem;
+}
+
+.header-bot div:nth-child(2) p:nth-child(2) {
+    font-size: 0.32rem;
+    color: #ffffff;
+}
+
+
+/*主体*/
+
+.main {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-nav01>ul {
+    display: flex;
+    width: 100%;
+    flex-flow: wrap;
+    background-color: white;
+}
+
+.main-nav01>ul>li {
+    width: 16.66%;
+    display: flex;
+    box-sizing: border-box;
+    border-top: 0;
+    border-left: 0;
+}
+
+.main-nav01>ul>li a {
+    display: flex;
+    width: 100%;
+    height: 1.3rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.1rem;
+}
+
+.main-nav01>ul>li a>i {
+    font-size: 0.6rem;
+    color: #2eb3e8;
+}
+
+.main-nav01>ul>li a>span {
+    font-size: 0.24rem;
+    color: #777777;
+}
+
+.mian-show-img {
+    padding: 0.45rem 0.3rem;
+}
+
+.mian-show-img img {
+    height: 4rem;
+    width: 6.9rem;
+}
+
+.money {
+    display: flex;
+    flex-direction: column;
+    padding: 0.35rem;
+    box-sizing: border-box;
+}
+
+.money>div:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+}
+
+.money>div:nth-child(1) span:nth-child(1) {
+    font-size: 0.32rem;
+    font-weight: 600;
+}
+
+.money>div:nth-child(1) span:nth-child(2) {
+    font-size: 0.28rem;
+    color: #777777;
+}
+
+.money>div:nth-child(2) {
+    margin-top: 0.5rem;
+    display: flex;
+}
+
+.money>div:nth-child(2)>div {
+    width: 2.4rem;
+    height: 2.2rem;
+}
+
+.money>div:nth-child(2)>div p {
+    text-align: center;
+    padding: 0.1rem 0;
+}
+
+.money>div:nth-child(2)>div:nth-child(2) {
+    border-left: 0.01rem solid #e7e3e3;
+    border-right: 0.01rem solid #e7e3e3;
+}
+
+.money>div:nth-child(2)>div p:nth-child(1) {
+    font-size: 0.28rem;
+}
+
+.money>div:nth-child(2)>div p:nth-child(2) {
+    font-size: 0.4rem;
+    color: #e8521b;
+}
+
+.money>div:nth-child(2)>div p:nth-child(3) {
+    font-size: 0.28rem;
+    color: #777777;
+}
+
+
+/*页脚*/
+
+.footer {
+    height: 1.2rem;
+}
+
+.footer ul {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.footer ul li {
+    display: flex;
+    width: 20%;
+    height: 100%;
+}
+
+.footer ul li a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer ul li a i {
+    font-size: 0.5rem;
+    color: #777777;
+}
+
+.footer ul li a span {
+    font-size: 0.2rem;
+}
+
+.active {
+    color: #2eb3e8 !important;
+}
